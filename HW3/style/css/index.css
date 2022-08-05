@@ -5,6 +5,7 @@
     float: left;
     text-align: center;
     background-color:black; color: white;
+    cursor: move;
     font-family: 'Courier New', Courier, monospace
 }
 
@@ -17,6 +18,7 @@
     background: color #C0C0C0;
     font-family: Mouse Memoirs, cursive;
     font-size: 18px;
+    cursor: pointer;
 }
 
 .rectangle3{
@@ -28,6 +30,7 @@
     background-color:rgb(128, 128, 128); color: white;
     font-family: BhuTuka Expanded One, monospace;
     font-weight: bolder;
+    cursor: wait;
 }
 
 .rectangle4{
@@ -39,6 +42,7 @@
     background-color:white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style:italic;
+    cursor: text;
 }
 
 .rectangle5{
@@ -49,6 +53,7 @@
     text-align: center;
     background-color:#800000; color: white;
     font-family: Permanent Marker, cursive;
+    cursor: progress;
 }
 
 .rectangle6{
@@ -60,6 +65,7 @@
     background-color:rgb(255, 0, 0); color: white;
     font-variant: small-caps;
     line-height: 21px;
+    cursor: pointer;
 }
 
 .rectangle7{
@@ -69,6 +75,7 @@
     float: left;
     text-align: center;
     background-color:purple; color: white;
+    cursor: crosshair;
 }
 
 .rectangle8{
@@ -78,6 +85,7 @@
     float: left;
     text-align: center;
     background-color:#FF00FF; color: white;
+    cursor: help;
 }
 
 .rectangle9{
@@ -87,6 +95,7 @@
     float: left;
     text-align: center;
     background-color:rgb(0, 128, 0); color: white;
+    cursor: text;
 }
 
 .rectangle{
@@ -95,4 +104,5 @@
     border: 1px solid;
     float: left;
     text-align: center;
+    cursor: pointer;
 }
