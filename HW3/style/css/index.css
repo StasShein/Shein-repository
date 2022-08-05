@@ -1,0 +1,98 @@
+.rectangle1{
+    width: 200px;
+    height: 75px;
+    border: 1px solid;
+    float: left;
+    text-align: center;
+    background-color:black; color: white;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.rectangle2{
+    width: 200px;
+    height: 75px;
+    border: 1px solid;
+    float: left;
+    text-align: center;
+    background: color #C0C0C0;
+    font-family: Mouse Memoirs, cursive;
+    font-size: 18px;
+}
+
+.rectangle3{
+    width: 200px;
+    height: 75px;
+    border: 1px solid;
+    float: left;
+    text-align: center;
+    background-color:rgb(128, 128, 128); color: white;
+    font-family: BhuTuka Expanded One, monospace;
+    font-weight: bolder;
+}
+
+.rectangle4{
+    width: 200px;
+    height: 75px;
+    border: 1px solid;
+    float: left;
+    text-align: center;
+    background-color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style:italic;
+}
+
+.rectangle5{
+    width: 200px;
+    height: 75px;
+    border: 1px solid;
+    float: left;
+    text-align: center;
+    background-color:#800000; color: white;
+    font-family: Permanent Marker, cursive;
+}
+
+.rectangle6{
+    width: 200px;
+    height: 75px;
+    border: 1px solid;
+    float: left;
+    text-align: center;
+    background-color:rgb(255, 0, 0); color: white;
+    font-variant: small-caps;
+    line-height: 21px;
+}
+
+.rectangle7{
+    width: 200px;
+    height: 75px;
+    border: 1px solid;
+    float: left;
+    text-align: center;
+    background-color:purple; color: white;
+}
+
+.rectangle8{
+    width: 200px;
+    height: 75px;
+    border: 1px solid;
+    float: left;
+    text-align: center;
+    background-color:#FF00FF; color: white;
+}
+
+.rectangle9{
+    width: 200px;
+    height: 75px;
+    border: 1px solid;
+    float: left;
+    text-align: center;
+    background-color:rgb(0, 128, 0); color: white;
+}
+
+.rectangle{
+    width: 200px;
+    height: 75px;
+    border: 1px solid;
+    float: left;
+    text-align: center;
+}
