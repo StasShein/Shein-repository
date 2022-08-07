@@ -1,0 +1,106 @@
+body{
+    width: 100vw; 
+    height: 500px; 
+    overflow: hidden;
+    margin: 0 100px 100px 0;
+    background-image: url(../images/Electron_shell_004_Beryllium.png\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position:140% 25%;
+    z-index: index 1;
+    
+}
+
+.text{
+    border: 2px solid transparent;
+    width: 80vw;
+    height: 80vh;
+    margin: 5%;  
+    z-index: 1;
+    overflow: hidden;
+    position: absolute;
+    white-space: pre-wrap;
+    text-align:justify;
+    font-size: 50px;
+    
+ 
+}
+
+.angleLT{
+    background-image: url(../images/angleLT.png);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 2;
+    background-position: 0% 0%;
+}
+
+.angleRT{
+    background-image: url(../images/angleRT.png);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 3;
+    background-position: 100% 0%;
+}
+
+.angleLB{
+    background-image: url(../images//angleLB.png);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 4;
+    background-position: 0% 100%;
+}
+
+.angleRB{
+    background-image: url(../images/angleRB.png);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 5;
+    background-position: 100% 100%;
+}
+
+.lineB{
+    background-image: url(../images/lineB.png); 
+    height: 100vh; 
+    width: 100vw;
+    background-repeat: repeat-x; 
+    background-position: 0% 100%;
+    position: absolute;
+}
+
+.lineL{
+    background-image:url(../images/lineL.png); 
+    height: 100vh;
+    width: 100vw; 
+    background-repeat: repeat-y; 
+    background-position: 0% 0%;
+    backface-visibility: hidden;
+    position: absolute;
+}
+
+.lineR{
+    background-image: url(../images/lineR.png); 
+    height: 100vh; 
+    width: 100vw; 
+    background-repeat: repeat-y; 
+    background-position: 100% 0%;
+    position: absolute;
+}
+
+.lineT{
+    background-image: url(../images/lineT.png); 
+    height: 100vh; 
+    width: 100vw;
+    background-repeat: repeat-x; 
+    background-position: 0% 0%;
+    position: absolute;
+}
+
+
+
