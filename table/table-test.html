@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Table</title>
+    <style>
+
+        tr{
+            border: 1px solid black;
+        }
+
+        th{
+            border: 1px solid;
+            width: 100px;
+            height: 100px;
+          
+        }
+
+        td{
+            border: 1px solid;
+            width: 100px;
+            height: 100px;
+            background-image: url(style/images/1640405610_1-funart-pro-p-prostie-legkie-foni-1.jpg);
+            background-size: cover;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <table style="
+    background-color: pink; 
+    border-collapse: separate;
+    table-layout: auto;
+    "><!-- COLLAPSE расстояние между линиями таблиц. применяется только к таблицам-->
+       
+        <caption style="caption-side:bottom;">Table name</caption>
+        
+        <!--<colgroup>
+        <col style="background-color: red;" span="2">-->
+
+        <col>
+        <col style="background-color: red;">
+        <col style="background-color: transparent;">
+        <!--тоже самое. несет одинаковые функции только в первом надо написать спан и количвество столбцов, а во втором прописывать каждый.-->
+        
+        <thead style="width: 300px; height:100px; background-color: aqua;">
+
+            <tr>
+                <th colspan="7">text</th>
+            </tr>
+        </thead>
+
+        <tbody style="background-color:azure ;">
+            <tr>
+            <td  rowspan="3">1</th>
+            <th colspan="2" rowspan="1">Dima</th>
+            <th colspan="4" rowspan="1">Stas</th>                                                                                            
+        </tr>
+        
+        <tr>
+        
+        </tr>
+        
+        <tr>
+            <th colspan="5">XOV</th>
+            <th>Cooler</th>
+        </tr>
+        <tr></tr>
+    </tbody>
+        
+
+        
+
+        <tfoot style="height: 200px; width: 200px; background-color: green">
+                <th>text</th>
+                <th>text</th>
+                <th>text</th>
+                <th>text</th>
+                <th>text</th>
+        </tfoot>
+
+    </table>
+</body>
+
+</html>
