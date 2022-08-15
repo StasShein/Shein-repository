@@ -1,0 +1,72 @@
+body{
+    width: 100vw;
+    height: auto;
+}
+
+.table{
+    display: table;
+    width: 100vw;
+    height: auto;
+    border-left: 5px ridge silver;
+    border-right: 5px ridge silver;
+    background-color: gray;
+}
+
+.tr{
+    display: table-row;
+}
+
+.td{
+    display: table-cell;
+    text-align: center;
+}
+
+.th{
+    display: table-cell;
+    width: 60vw;
+    font-size: 30px;
+}
+
+.tbody{
+    display: table-header-group;
+}
+
+.thead{
+    display: table-header-group;
+}
+
+.tfoot{
+    display: table-footer-group;
+}
+
+.full{
+    width: 100vw;
+}
+
+.empty{
+    width: 10vw;
+    height: 2vh;
+}
+
+.man{
+    width: 200px;
+    height: 300px;
+    float: right;
+    margin: 1%;
+}
+
+.font-yellow{
+    color: yellow;
+}
+
+.font-white{
+    color: white;
+}
+
+.white-back{
+    background-color: white;
+}
+
+p{
+    color: white;
+}
