@@ -1,0 +1,39 @@
+.main{
+     border: 3px solid purple;
+     border-top: 10px dotted pink;
+     width: 150px;
+     height: 150px;
+     margin: 5% 0 0 5%;
+}
+
+/*.main:last-child .main_form{ 
+    border: 1px solid blueviolet;
+    background-color: blueviolet;
+    width: 150px;
+    height: 150px;
+}
+
+.main:first-child .main .main .main .main .main .main_form{
+    border: 1px solid red;
+    background-color: red;
+    width: 150px;
+    height: 150px;
+}*/
+
+/*вариант решения*/
+
+#main>.main:last-child .main_form{
+    border: 1px solid red;
+    background-color: red;
+    width: 150px;
+    height: 150px;
+}
+
+.main_form{
+    border: 1px solid blueviolet;
+    background-color: blueviolet;
+    width: 150px;
+    height: 150px;
+}
+
+/*таким образом выбираем именно первый main после id и от него находим последний main который находится в класе main и задаем от него характ для .main_form п*/
