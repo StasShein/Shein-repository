@@ -1,0 +1,126 @@
+body{
+    background-color: rgb(145,15,1);
+    color: white;
+    text-align: center;
+    width: 100vw;
+    height: auto;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "text-marvel";
+    src: url("../fonts/Alumni_Sans_Pinstripe/AlumniSansPinstripe-Regular.ttf");
+}
+
+@font-face {
+    font-family: "text-header";
+    src: url(../fonts/Kelly-Slab/KellySlab-Regular.ttf);
+}
+
+@font-face {
+    font-family: "text-ad";
+    src: url(../fonts/Press_Start_2P/PressStart2P-Regular.ttf);
+}
+
+.header{
+    width: 100vw;
+    font-family: text-marvel, cursive;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.logo{
+    width: 50vw;
+    height: 20vh;
+    margin: 0 25% 0 25%;
+}
+
+.sections{
+    margin: 2% 0 0 0;
+    width: 100vw;
+    background-color:white;
+    color: black;
+    word-spacing: 5vw;
+    font-family: text-header, cursive;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.news{
+    width: 20vw;
+    float: left;
+    font-family: text-header, cursive;
+    font-size: 17px;
+    padding: 0 1% 0 1%;
+}
+
+.body{
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    width: 52vw;
+    float: left;
+    font-family: text-marvel, cursive;
+    font-size: 21px;
+    text-align: justify;
+    padding: 1%;
+    font-weight: 600;
+}
+
+.top-list{
+    width: 20vw;
+    float: left;
+    font-family: text-header, cursive;
+    font-size: 17px;
+    padding: 0 1% 0 1%;
+}
+
+.foot{
+    border-top: 2px solid white;
+    width: 100vw;
+    font-size: 12px; 
+    clear: both; 
+    text-align: justify;
+    font-family: text-marvel, cursive;
+}
+
+.news-top-img{
+    width: 20vw;
+    height: 50vh;
+}
+
+.body-header-img{
+    width: 50vw;
+    height: 30vh;
+    margin: 0 2% 0 2%;
+}
+
+.body-img{
+    width: 20vw;
+    height: 50vh;
+    float: right;
+    margin: 2%;
+}
+
+.foot-img{
+    width: 100px;
+    height: 50px;
+    float: left;
+    margin: 1% 1% 1% 30%;
+}
+
+.header-font{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+a{
+    color: white;
+}
+
+.sections a{
+    color: black;
+}
+
+.img-spiderman{
+    width: 20vw;
+}
