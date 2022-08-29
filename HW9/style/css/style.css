@@ -1,0 +1,143 @@
+body{
+    width: 500px;
+    text-align: center;
+    margin: 0% 0% 0 30%;
+    font-family: main-text, cursive;
+}
+
+@font-face {
+    font-family: 'header';
+    src: url(../fonts/Aboreto/Aboreto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'main-text';
+    src: url(../fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
+}
+
+form{
+    background-color: antiquewhite;
+    background-image: url(../image/images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{
+    width: 500px;
+    height: 70px;
+    background-color: rgb(85, 190, 250);
+    font-size: 30px;
+    font-family: header, cursive;
+    font-weight: 600;
+    padding-top: 5%;
+   
+}
+
+.name{
+    width: 500px;
+    font-size: 18px;
+    color: blueviolet;
+}
+
+.label{
+    width: 90px;
+    height: 150px;
+    box-sizing: border-box;
+    float: left;
+    line-height: 26px;
+    text-align: right;
+    margin: 1% 0 0 20%
+
+}
+
+.input{
+    width: 300px;
+    box-sizing: border-box;
+    float: right;
+}
+
+.input input{
+    margin:2% 20% 0% 1%;
+    text-align: left;
+}
+
+.sex{
+    clear: both;
+    margin-bottom: 3%;
+}
+
+.birthday{
+    padding-bottom: 2%;
+    font-size: 20px;
+    color: blue;
+}
+
+.submit{
+    padding:2% 0 2% 0;
+    font-size: 20px;
+    color: crimson;
+}
+
+.reset{
+    padding: 2% 0 2% 0;
+    font-size: 20px;
+    color: greenyellow;
+}
+
+input[type="text"]:focus{
+    border:5px solid red;
+}
+
+input[type="submit"]{
+    border: 5px double red;
+    background-color: pink;
+    font-family: main-text,cursive;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+input[type="reset"]{
+    border: 5px dotted forestgreen;
+    background-color:  greenyellow;
+    font-family: main-text,cursive;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+input[type="date"]{
+    border: 5px outset blue;
+    background-color:  rgb(12, 154, 248);
+    font-family: main-text,cursive;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+input[type="text"]{
+    border: 3px dashed pink;
+    background-color:  rgb(12, 154, 248);
+    font-family: main-text,cursive;
+    font-weight: 600;
+    font-size: 13px;
+    border-radius: 10px;
+}
+
+input[type="password"]{
+    border: 3px dashed pink;
+    background-color:  rgb(12, 154, 248);
+    font-family: main-text,cursive;
+    font-weight: 600;
+    font-size: 13px;
+    border-radius: 10px;
+}
+
+input[type="email"]{
+    border: 3px dashed pink;
+    background-color:  rgb(12, 154, 248);
+    font-family: main-text,cursive;
+    font-weight: 600;
+    font-size: 13px;
+    border-radius: 10px;
+}
