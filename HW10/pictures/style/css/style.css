@@ -1,0 +1,52 @@
+body{
+    width: 50vw;
+}
+
+.body{
+    width: 50vw;
+}
+
+.image{
+    width: 50vw;
+}
+
+.text{
+    width: 50vw;
+}
+
+.foot{
+    margin-top: 500px;
+}
+
+.bio{
+    position: absolute;
+    left: 50px;
+}
+
+.man-woman{
+    position: absolute;
+    left: 300px;
+}
+
+.yin-yang{
+    position: absolute;
+    left: 180px;
+    margin-top: 250px;
+}
+
+.smoke{
+    position: absolute;
+    left: 170px;
+    margin-top: 70px;
+}
+
+.pic{
+    width: 210px;
+    height: 210px;
+}
+
+.pic:hover{
+    z-index: 1;
+    width: 240px;
+    height: 240px;
+}

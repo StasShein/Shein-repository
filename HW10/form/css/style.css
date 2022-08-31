@@ -1,0 +1,64 @@
+.form{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+}
+
+.header{
+    width: 30vw;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 2%;
+    background-color: pink;
+    color: black;
+}
+
+.name{
+    width: 30vw;
+    height: 25vh;
+    display: flex;
+    margin-bottom: 2%;
+}
+
+.name .label{
+    width: 10vw;
+    text-align: left;
+    padding-left: 15%;
+}
+
+.name .input{
+    width: 20vw;
+    text-align: left;
+}
+
+.input input{
+    margin-top: 6%;
+}
+
+.sex{
+    width: 30vw;
+    margin-bottom: 2%;
+}
+
+.checkbox{
+    width: 30vw;
+    margin-bottom: 2%;
+}
+
+.birthday{
+    width: 30vw;
+    margin-bottom: 2%;
+}
+
+.submit{
+    width: 30vw;
+    margin-bottom: 2%;
+}
+
+.reset{
+    width: 30vw;
+    margin-bottom: 2%;
+}
