@@ -1,0 +1,46 @@
+#main{
+    display:grid;
+    width: 90vw;
+    border: 1px solid black;
+    grid-template-areas: 
+    "body"
+    "menu"; 
+    grid-template-columns: 2fr;
+}
+
+.menu{
+    border: 1px solid black;
+    grid-area: menu;
+    padding: 10%;
+    background-color: white;
+}
+
+.cup{
+    width: 150px;
+    height: 150px;
+    margin: 2%;
+}
+
+.body{
+    border: 1px solid black;
+    grid-area: body;
+    position: relative;
+    overflow: hidden;
+}
+
+.body::before{
+    display: none;
+}
+
+.header{
+    display: none;
+}
+
+.footer{
+    display: none;
+}
+
+p{
+    clear: both;
+}
+
