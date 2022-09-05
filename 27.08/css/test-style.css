@@ -1,0 +1,74 @@
+body{
+    background-color: blueviolet;
+    width: 500px;
+}
+
+form{
+    display: block;
+}
+
+h1{
+    margin: 0 0 0 10%;
+}
+
+.name{
+    display: inline-block;
+}
+
+.label{
+    width: 100px;
+    text-align: left;
+    float: left;
+    display: block;
+    line-height: 23px;
+    margin-top: 20px;
+
+}
+
+.input{
+    display: block;
+    float: right;
+    width: 240px;
+    text-align: left;
+    padding-top: 20px;
+    line-height: 10px;
+    padding-left: 10px;
+}
+
+.input input{
+    margin-bottom: 1%;
+}
+
+.SEX{
+    display: block;
+    width: 350px;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.checkbox{
+    display: block;
+    width: 350px;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.birthday{
+    display: block;
+    text-align: center;
+    width: 350px;
+}
+
+.submit{
+    display: block;
+    width: 350px;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.reset{
+    display: block;
+    width: 350px;
+    text-align: center;
+    margin-top: 3%;
+}

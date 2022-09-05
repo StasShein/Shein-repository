@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+    
+    #block{
+    width: 320px;
+    height: 300px;
+    overflow: scroll;
+    font-size: 30px;
+    }
+    
+    #block::-webkit-scrollbar{
+        width: 10px;
+        background-color: white;
+    }
+    
+    #block::-webkit-scrollbar-button{
+        display: none;
+    }
+
+    #block::-webkit-scrollbar-track{
+        display: none;
+    }
+
+
+    #block::-webkit-scrollbar-thumb{
+        border-radius: 5px;
+        background-color: red;
+        height: 180px;
+    }
+
+    .grid{
+        display: grid;
+        /*grid-template-columns: 240px repeat(1,1fr 350px);*/
+        /*grid-template-columns: 200px 3fr 1fr;*/
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-auto-rows: minmax(150px, auto);
+        /*grid-auto-rows: 150px 300px;*/
+        background-color: blueviolet;
+        border: 3px solid black;
+        margin: 5px;
+        border-radius: 5px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 30px;
+        border-radius: 5px;
+    }
+
+    div{
+        border: 3px solid black;
+        border-radius: 10px;
+        margin: 10px;
+    }
+
+    .box1{
+        display: grid;
+        /*grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;*/
+
+        grid-area: 1 / 1 / 3 / 3; /*row start/column start/row end/column end;*/ /*еще есть значение отрицательное которое считает с обратной стороны. т.е -1 это первая сконца*/
+        grid-template-columns: 1fr 1fr 1fr;
+        /*grid-column-gap: 10px;
+        grid-row-gap: 10px;*/
+        gap: 10px;
+    }
+
+    .box3{
+        grid-row: 2 / 4;
+    }
+
+    .grid2{
+        display: grid;
+        grid-template-columns: 100px 100px;
+        grid-template-rows: 100px;
+        grid-template-areas: 
+            "1 2"
+            "1 2"
+            "1 2";
+            /*в блоках прописать grid-area:название названия как прописаны в этом списке*/
+        
+            /*"menu header header"
+            "menu body footer"
+            "menu body footer";*/
+        border: 2px solid black;           
+    }
+
+    </style>
+
+
+
+</head>
+<body>
+    <div id="block">
+        What is Lorem Ipsum?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Why do we use it?
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+    </div>
+
+    <video src="link" controls width="500px" height="300px" autoplay loop poster="image/image.img">
+        <source src="link" type="video/mp4">
+        <source src="link" type="video/avi">
+        <p>Видео недоступно</p>
+    </video>
+
+    <audio src="link" controls autoplay loop>
+        <source src="link" type="audio/mp3">
+        <source src="link" type="audio/wav">
+        <p>Видео недоступно</p>
+    </audio>
+
+    <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/iKBs9l8jS6Q" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+    </iframe>
+
+    <div class="grid">
+        <div class="box1">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="box2">two</div>
+        <div class="box3">three</div>
+        <div class="box4">four</div>
+        <div class="box5">five</div>
+
+    </div>
+
+    <div class="grid2">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+
+
+    </div>
+
+</body>
+</html>

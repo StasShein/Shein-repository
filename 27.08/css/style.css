@@ -1,0 +1,31 @@
+input:checked{
+    background-color: aqua;
+}
+
+[checked]{
+    background-color: blueviolet;
+}
+
+#radio [checked]{
+    background-color: aquamarine;
+}
+
+input[type="button"]{
+    cursor: pointer;
+}
+
+textarea{
+    resize: none;
+}
+
+/*как достать тэг инпут для его изменений*/
+
+input [name="fieldName"]{
+    -webkit-text-security: square;
+}
+
+@media screen and (max-width:250px){
+    input [name="fieldName"]{
+        background-color: aliceblue;
+    }
+}

@@ -1,0 +1,36 @@
+div{
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+/*так правильо прописывать для поддержкив разных браузерах*/
+
+#block{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    overflow: scroll;
+}
+
+#block::-webkit-scrollbar{
+    width: 20px;
+}
+/*настройка ползунка прокрутки*/
+
+#block::-webkit-scrollbar-button{
+    display: none;
+}
+/*верхние и нижние кнопки скролл бара настройка стрелочки*/
+
+#block::-webkit-scrollbar-track{
+    display: none;
+}
+/*белые отступы внутри скролл бара, от ползунка*/
+
+
+#block::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+}
+/*настройка самой маленькой палочки для передвижения по скролл бару*/
