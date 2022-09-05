@@ -1,0 +1,64 @@
+#wrapper{
+    width: 90vw;
+    height: 500px;
+    border: 1px solid black;
+    background-color: blueviolet;
+    border-radius: 5px;
+    position: relative;
+    margin-right: 15%;
+}
+
+#circle{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: aqua;
+    border-radius: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    animation-name: to_right,to_bottom;
+    animation-duration: 5s, 2s;
+    /* animation-delay: 3s; */
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    /* animation-timing-function: cubic-bezier(); */
+    
+
+    /* transition-duration: 3s;  /*время анимации */
+    /* transition-delay: 0.5s;   время задержки до начала анимации. работает в обе стороны
+    transition-property: all;  знасения которые будут анимироваться если all то все буду анимир,но можно установить определенные характеристики которые будут анимироваться.
+    transition-timing-function: cubic-bezier(1, 0.1, 1, 1); */
+}
+
+/* #wrapper:hover #circle{ */
+    /* top: 15%;
+    left: 60%;
+    background-color: pink;
+    border-radius: 100px;
+    transform: rotate(360deg);
+    transform: scale(2,2);
+    /* transform: skew(1000deg, 140deg); */
+    /* transform: matrix(0.5, 10, 10, 0.5, ) */
+    /* transform: translate(50%, 10%);*/
+
+
+@keyframes to_right {
+    from{
+        left:0;
+    }   
+    to{
+        left:80vw;
+    }
+}
+
+@keyframes to_bottom {
+    from{
+        top:0;
+    }
+    to{
+        top:300px;
+    }
+}
+
