@@ -1,36 +1,36 @@
-#main{
+#grid{
     display:grid;
     width: 90vw;
-    border: 1px solid black;
     grid-template-areas: 
     "body"
     "menu"; 
     grid-template-columns: 2fr;
+    border: 1px solid transparent;
 }
 
 .menu{
-    border: 1px solid black;
     grid-area: menu;
     padding: 10%;
     background-color: white;
-}
-
-.cup{
-    width: 150px;
-    height: 150px;
-    margin: 2%;
+    border: 1px solid transparent;
 }
 
 .body{
-    border: 1px solid black;
     grid-area: body;
     position: relative;
     overflow: hidden;
+    border: 1px solid transparent;
 }
 
-.body::before{
-    display: none;
-}
+    .body::before{
+        display: none;
+    }
+
+    .cup{
+        width: 150px;
+        height: 150px;
+        margin: 2%;
+    }
 
 .header{
     display: none;
