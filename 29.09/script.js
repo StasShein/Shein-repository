@@ -183,7 +183,7 @@ function summa(obj){
          if (typeof obj[key] === 'number'){
             summa += obj[key]
          }else{
-            if(Number(obj[key]) !== 'NaN'){
+            if(+obj[key] !== 'NaN'){
                 summa += +obj[key]
             }
             
